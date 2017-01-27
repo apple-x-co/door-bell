@@ -1,9 +1,8 @@
 {
 	"name": "door-bell",
 	"version": "0.0.1",
-	"scripts": {
-		"start": "index.js"
-	},
+	"description": "Office door bell.",
+	"main": "index.js",
 	"dependencies": {
 		"socket.io": "1.7.2"
 	},
