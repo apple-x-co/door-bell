@@ -3,5 +3,12 @@
 	"version": "0.0.1",
 	"scripts": {
 		"start": "index.js"
+	},
+	"dependencies": {
+		"socket.io": "1.7.2"
+	},
+	"engines": {
+		"node": "v6.9.4",
+		"npm": "4.2.0"
 	}
 }
