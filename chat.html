@@ -33,10 +33,7 @@
     <script type="text/javascript">
     //var ioSocket = io.connect( "http://localhost:3000" ); // チャットサーバーに接続
     
-	var port = '3000';
-	if (typeof(process) !== 'undefined' && process.env.PORT) {
-		port = process.env.PORT;
-	}
+	var port = '10633';
     var ioSocket = io.connect( "https://door-bell.herokuapp.com/:" + port ); // チャットサーバーに接続
 
     ioSocket.on( "connect", function() {} );
