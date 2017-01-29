@@ -10,6 +10,7 @@ if (typeof(process) !== 'undefined' && process.env.PORT) {
 // 3000番ポートでHTTPサーバーを立てる
 var server = http.createServer( function( req, res ) {
     res.writeHead(200, { 'Content-Type' : 'text/html' }); // ヘッダ出力
+    res.write('HELLO');
     res.end( fs.readFileSync('./chat.html', 'utf-8') );  // index.htmlの内容を出力
 }).listen(port);
 
